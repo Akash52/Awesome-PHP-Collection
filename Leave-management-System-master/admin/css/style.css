@@ -1,0 +1,67 @@
+/* Home page css */
+body{
+    background:#c8d6e5;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#353b48;
+    color: white;
+    text-align: center;
+ }
+
+.divider-text {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.divider-text span {
+    padding: 7px;
+    font-size: 12px;
+    position: relative;   
+    z-index: 2;
+}
+.divider-text:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    left: 0;
+    z-index: 1;
+}
+.fa.fa-user{
+    color :#2f3640;
+  }
+  .fa.fa-graduation-cap{
+    color :#2f3640;
+  }
+  .page-header
+  {
+    height: 60px;
+    margin-bottom: 5px;
+    text-align: center;
+    background-color:#ECF0F1;
+    color: #264348;
+    border-radius: 10px;
+  }
+  .card
+  {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+    height: fit-content;
+    width: 400px;
+    background-color:#33d9b2;
+    color: white;
+    border-radius: 10px;
+    
+  }
+  .jumbotron
+  {
+      border-radius: 10px;
+  }
+  
